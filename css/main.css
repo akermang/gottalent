@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400,700);
+/* line 1, ../scss/base/_base.scss */
+main {
+  height: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, ../scss/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../scss/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../scss/base/_reset.scss */
+body, html {
+  height: 100%;
+  font-family: 'Roboto';
+}
+
+/* line 35, ../scss/base/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 38, ../scss/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 41, ../scss/base/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 45, ../scss/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 49, ../scss/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, ../scss/layout/_banner.scss */
+.banner-cont {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0);
+  max-height: 885px;
+  background: linear-gradient(to right, #efab4b, #d87843, #bb4343);
+}
+/* line 16, ../scss/layout/_banner.scss */
+.banner-cont img {
+  width: 100%;
+  opacity: 0.14;
+}
+/* line 21, ../scss/layout/_banner.scss */
+.banner-cont .heading-cont {
+  width: 46%;
+  margin: auto;
+  margin-top: 16.2%;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/* line 33, ../scss/layout/_banner.scss */
+.banner-cont .heading-cont h1 {
+  font-size: 31px;
+  font-family: "Roboto Slab";
+  white-space: nowrap;
+}
+/* line 43, ../scss/layout/_banner.scss */
+.banner-cont .heading-cont .heading-line {
+  margin: 49px auto;
+  width: 80px;
+  height: 2px;
+  background: white;
+}
+/* line 50, ../scss/layout/_banner.scss */
+.banner-cont .heading-cont p {
+  font-size: 21px;
+  line-height: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 0 auto;
+  width: 360px;
+}
+
+/* line 3, ../scss/layout/_gallery.scss */
+.gallery-container .wrap-title {
+  display: flex;
+}
+/* line 6, ../scss/layout/_gallery.scss */
+.gallery-container .wrap-title p {
+  font-family: "Roboto Slab";
+  margin: auto;
+  margin-top: 30px;
+  color: #222222;
+  font-size: 30px;
+}
+/* line 16, ../scss/layout/_gallery.scss */
+.gallery-container .line {
+  margin: 80px auto;
+  width: 80px;
+  height: 2px;
+  background: #efab4b;
+}
+/* line 23, ../scss/layout/_gallery.scss */
+.gallery-container .gallery {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 80px auto;
+}
+/* line 29, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap {
+  width: 220px;
+}
+/* line 32, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap img {
+  width: 100%;
+  height: auto;
+}
+/* line 40, ../scss/layout/_gallery.scss */
+.gallery-container .btn-wrap {
+  display: flex;
+  margin-bottom: 80px;
+}
+/* line 44, ../scss/layout/_gallery.scss */
+.gallery-container .btn-wrap .btn {
+  margin: 0 auto;
+  width: 20%;
+  color: #bb4343;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  height: 58px;
+  border: 1px solid #222222;
+  background: white;
+}
+
+/* line 1, ../scss/layout/_why.scss */
+.why {
+  background: #f7f7f7;
+  color: #222222;
+  text-align: center;
+}
+/* line 6, ../scss/layout/_why.scss */
+.why .content {
+  margin: 0 auto;
+  max-width: 60%;
+}
+/* line 11, ../scss/layout/_why.scss */
+.why .line {
+  margin: 80px auto;
+  width: 80px;
+  height: 2px;
+  background: #efab4b;
+}
+/* line 18, ../scss/layout/_why.scss */
+.why .why-p {
+  width: 50%;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0 auto;
+}
+/* line 27, ../scss/layout/_why.scss */
+.why .why-title {
+  margin: 0  auto;
+  padding-top: 80px;
+  font-family: "Roboto Slab";
+  margin: 30px auto;
+  color: #222222;
+  font-size: 30px;
+}
+/* line 37, ../scss/layout/_why.scss */
+.why .why-gallery {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+  margin: auto;
+  margin-top: 7px;
+}
+/* line 45, ../scss/layout/_why.scss */
+.why .why-gallery .svg-wrap {
+  width: 240px;
+}
+/* line 49, ../scss/layout/_why.scss */
+.why .why-gallery .svg-wrap .title-wrap p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+}
+/* line 55, ../scss/layout/_why.scss */
+.why .why-gallery svg path {
+  fill: #d87843;
+  width: 100%;
+}
+
+/* line 1, ../scss/layout/_footer.scss */
+.footer {
+  height: 160px;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 8, ../scss/layout/_footer.scss */
+.footer .copyright {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: white;
+}
+/* line 14, ../scss/layout/_footer.scss */
+.footer .copyright span {
+  color: #d87843;
+  font-family: "Roboto";
+  font-weight: 400;
+}

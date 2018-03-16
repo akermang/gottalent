@@ -1,0 +1,61 @@
+.gallery-container{
+
+    .wrap-title{
+        display: flex;
+
+        p{
+            font-family: "Roboto Slab";
+            margin: auto;
+            margin-top: 30px; 
+            color: $color-primary;
+            font-size: 30px;
+        }
+
+    }
+
+    .line{
+        margin:  80px auto;
+        width: 80px;
+        height: 2px;
+        background:$color-yellow;
+    }
+
+    .gallery{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: 80px auto;
+
+        .img-wrap{
+            width: 220px;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    }
+
+    .btn-wrap{
+        display: flex;
+        margin-bottom: 80px;
+
+        .btn{
+            margin: 0 auto;
+            width: 20%;
+            color: $color-red;
+            font-size: 24px;
+            font-family: "Roboto";
+            font-weight: 700;
+            height: 58px;
+            border: 1px solid $color-primary;
+            background: $color-secondary;
+        }
+    }
+
+
+
+    
+
+}

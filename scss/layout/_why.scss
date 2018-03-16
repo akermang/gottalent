@@ -1,0 +1,63 @@
+.why{
+    background: $color-bg;
+    color: $color-primary;
+    text-align: center;
+
+    .content{
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    .line{
+        margin:  80px auto;
+        width: 80px;
+        height: 2px;
+        background:$color-yellow;
+    }
+
+    .why-p{
+        width: 50%;
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 300; 
+        font-size: 21px;
+        margin: 0 auto;
+    }
+
+    .why-title{
+        margin: 0  auto;
+        padding-top: 80px;
+        font-family: "Roboto Slab";
+        margin: 30px auto;
+        color: $color-primary;
+        font-size: 30px;
+       
+    }
+
+    .why-gallery{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 80px;
+        margin: auto;
+        margin-top: 7px;
+
+        .svg-wrap{
+            width: 240px;
+        }
+
+        .svg-wrap .title-wrap p{
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        svg path {
+
+            fill: $color-orange;
+            width: 100%;
+        }
+    }
+
+    
+}
