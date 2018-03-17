@@ -377,12 +377,13 @@ table {
   .why .why-gallery {
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
   }
-  /* line 71, ../scss/layout/_why.scss */
+  /* line 72, ../scss/layout/_why.scss */
   .why .why-gallery svg path {
     transform: translate(-11px, 0);
   }
-  /* line 76, ../scss/layout/_why.scss */
+  /* line 77, ../scss/layout/_why.scss */
   .why .why-p {
     width: 90%;
     height: 200px;
@@ -390,7 +391,7 @@ table {
   }
 }
 @media (max-width: 402px) {
-  /* line 86, ../scss/layout/_why.scss */
+  /* line 87, ../scss/layout/_why.scss */
   .why .why-title {
     padding-top: 30px;
     font-size: 25px;
