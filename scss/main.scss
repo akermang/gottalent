@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400,700);
 @import 'base/_base.scss';
 @import 'base/_variables.scss';
-@import 'base/_mixins.scss';
 @import 'base/_reset.scss';
 
 @import 'layout/_banner.scss';
@@ -9,8 +8,4 @@
 @import 'layout/_why.scss';
 @import 'layout/_footer.scss';
 
-
-@import 'modules/_buttons.scss';
-@import 'modules/_components.scss';
-@import 'base/_queries.scss';
-
+ // font: Roboto 300, Roboto 400, Roboto 700, Roboto Slab 700 //

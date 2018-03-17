@@ -20,8 +20,6 @@
     
     .heading-cont{
         width: 59%;
-        // change with media queries to fit screen nicely
-        // width: 400px;
         margin: auto;
         margin-top: 16.2%;
         color: white;
@@ -31,11 +29,8 @@
         text-align: center;
 
         h1{
-            // The style guide specifies size: 48px, 
-            // yet this does not match the proportions
-            // as shown in lp-desktop-styleguide.jpg 
             font-size: 40px; 
-            font-family: $font-slab-bold;
+            font-family: 'Roboto Slab';
             white-space: nowrap;
 
         }
@@ -57,71 +52,69 @@
     }
 }
 
-    @media (max-width: 834px) {
-        .banner-cont{
+@media (max-width: 834px) {
+    .banner-cont{
 
-            .heading-cont h1 {
-                font-size: 28px!important;
-            }
-        } 
-    }
+        .heading-cont h1 {
+            font-size: 28px!important;
+        }
+    } 
+}
 
-    @media (max-width: 734px) {
-        .banner-cont{
-            height: 740px;
-            clip-path: polygon(0 0, 0 100%, 100% 86%, 100% 0);
-            
-            img{
-                height: 100%;
-            }
-
-            .heading-cont{
-                margin-top: 27%;
-                width: 75%;
-            }
+@media (max-width: 734px) {
+    .banner-cont{
+        height: 740px;
+        clip-path: polygon(0 0, 0 100%, 100% 87%, 100% 0);
+        
+        img{
+            height: 100%;
         }
 
+        .heading-cont{
+            margin-top: 27%;
+            width: 75%;
+        }
     }
+}
 
-    @media (max-width: 502px) {
-        .banner-cont {
-            .heading-cont{
-                margin-top: 49%;
-                width: 90%;
+@media (max-width: 502px) {
+    .banner-cont {
+        .heading-cont{
+            margin-top: 49%;
+            width: 90%;
 
-                h1 {
-                    font-size: 24px!important;
-                }
+            h1 {
+                font-size: 24px!important;
+            }
 
-                p{
-                    font-size: 16px;
-                }
+            p{
+                font-size: 16px;
             }
         }
     }
+}
 
-    @media (max-width: 402px) {
-        .banner-cont {
-            .heading-cont{
+@media (max-width: 402px) {
+    .banner-cont {
+        .heading-cont{
+            width: 93%;
 
-                width: 93%;
-
-                h1 {
-                    font-size: 22px!important;
-                }
+            h1 {
+                font-size: 22px!important;
             }
         }
     }
+}
 
-    @media (max-width: 310px) {
-        .banner-cont {
-            .heading-cont{
+@media (max-width: 310px) {
+    .banner-cont {
+        .heading-cont{
 
-                margin-top: 56%;
+            margin-top: 56%;
 
-                h1 {
-                    font-size: 20px!important;
-                }
+            h1 {
+                font-size: 20px!important;
             }
         }
     }
+}
