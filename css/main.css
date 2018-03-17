@@ -358,7 +358,7 @@ table {
 }
 /* line 44, ../scss/layout/_why.scss */
 .why .why-gallery .svg-wrap {
-  width: 220px;
+  width: 250px;
 }
 /* line 48, ../scss/layout/_why.scss */
 .why .why-gallery .svg-wrap .title-wrap p {
@@ -378,12 +378,9 @@ table {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
+    width: 250px;
   }
-  /* line 72, ../scss/layout/_why.scss */
-  .why .why-gallery svg path {
-    transform: translate(-11px, 0);
-  }
-  /* line 77, ../scss/layout/_why.scss */
+  /* line 74, ../scss/layout/_why.scss */
   .why .why-p {
     width: 90%;
     height: 200px;
@@ -391,7 +388,7 @@ table {
   }
 }
 @media (max-width: 402px) {
-  /* line 87, ../scss/layout/_why.scss */
+  /* line 83, ../scss/layout/_why.scss */
   .why .why-title {
     padding-top: 30px;
     font-size: 25px;
