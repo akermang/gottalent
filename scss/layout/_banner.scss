@@ -86,15 +86,41 @@
     @media (max-width: 502px) {
         .banner-cont {
             .heading-cont{
-                margin-top: 37%;
+                margin-top: 49%;
                 width: 90%;
 
                 h1 {
-                    font-size: 20px!important;
+                    font-size: 24px!important;
                 }
 
                 p{
                     font-size: 16px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 402px) {
+        .banner-cont {
+            .heading-cont{
+
+                width: 93%;
+
+                h1 {
+                    font-size: 22px!important;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 310px) {
+        .banner-cont {
+            .heading-cont{
+
+                margin-top: 56%;
+
+                h1 {
+                    font-size: 20px!important;
                 }
             }
         }

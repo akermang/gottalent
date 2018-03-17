@@ -144,16 +144,36 @@ table {
 @media (max-width: 502px) {
   /* line 88, ../scss/layout/_banner.scss */
   .banner-cont .heading-cont {
-    margin-top: 37%;
+    margin-top: 49%;
     width: 90%;
   }
   /* line 92, ../scss/layout/_banner.scss */
   .banner-cont .heading-cont h1 {
-    font-size: 20px!important;
+    font-size: 24px!important;
   }
   /* line 96, ../scss/layout/_banner.scss */
   .banner-cont .heading-cont p {
     font-size: 16px;
+  }
+}
+@media (max-width: 402px) {
+  /* line 105, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont {
+    width: 93%;
+  }
+  /* line 109, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont h1 {
+    font-size: 22px!important;
+  }
+}
+@media (max-width: 310px) {
+  /* line 118, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont {
+    margin-top: 56%;
+  }
+  /* line 122, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont h1 {
+    font-size: 20px!important;
   }
 }
 /* line 3, ../scss/layout/_gallery.scss */
