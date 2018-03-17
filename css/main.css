@@ -156,12 +156,53 @@ table {
   width: 100%;
   height: auto;
 }
-/* line 41, ../scss/layout/_gallery.scss */
+/* line 39, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk {
+  background: #090909;
+  position: relative;
+}
+/* line 43, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk img.with-musk {
+  opacity: 0.23;
+}
+/* line 47, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk .img-banner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 58, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk .img-banner p.text-bold {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  margin: 17 auto;
+}
+/* line 64, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk .img-banner p.text-normal {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 auto;
+}
+/* line 71, ../scss/layout/_gallery.scss */
+.gallery-container .gallery .img-wrap.with-musk .img-banner div.line {
+  height: 2px;
+  color: #efab4b;
+  margin: 17 auto;
+  width: 60px;
+}
+/* line 82, ../scss/layout/_gallery.scss */
 .gallery-container .btn-wrap {
   display: flex;
   margin-bottom: 80px;
 }
-/* line 45, ../scss/layout/_gallery.scss */
+/* line 86, ../scss/layout/_gallery.scss */
 .gallery-container .btn-wrap .btn {
   margin: 0 auto;
   width: 310px;

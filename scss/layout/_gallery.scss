@@ -29,10 +29,51 @@
         .img-wrap{
             width: 310px;
             margin: 0 10;
-
+            
             img{
                 width: 100%;
                 height: auto;
+            }
+        }
+
+        .img-wrap.with-musk{
+            background: #090909;
+            position: relative;
+
+            img.with-musk{
+                opacity: 0.23;
+            }
+
+            .img-banner{
+                color: $color-secondary;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                
+                p.text-bold{
+                    font-family: "Roboto Slab";
+                    font-weight: 700;
+                    margin: 17 auto;
+                }
+
+                p.text-normal{
+                    font-family: "Roboto";
+                    font-weight: 300;
+                    font-size: 16px;
+                    margin: 0 auto;
+                }
+
+                div.line{
+                    height: 2px;
+                    color: $color-yellow;
+                    margin: 17 auto;
+                    width: 60px;
+                }
             }
         }
 
