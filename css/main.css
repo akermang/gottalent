@@ -88,7 +88,7 @@ table {
 }
 /* line 21, ../scss/layout/_banner.scss */
 .banner-cont .heading-cont {
-  width: 46%;
+  width: 59%;
   margin: auto;
   margin-top: 16.2%;
   color: white;
@@ -99,7 +99,7 @@ table {
 }
 /* line 33, ../scss/layout/_banner.scss */
 .banner-cont .heading-cont h1 {
-  font-size: 31px;
+  font-size: 40px;
   font-family: "Roboto Slab";
   white-space: nowrap;
 }
@@ -117,9 +117,45 @@ table {
   font-family: 'Roboto';
   font-weight: 400;
   margin: 0 auto;
-  width: 360px;
 }
 
+@media (max-width: 834px) {
+  /* line 63, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont h1 {
+    font-size: 28px!important;
+  }
+}
+@media (max-width: 734px) {
+  /* line 70, ../scss/layout/_banner.scss */
+  .banner-cont {
+    height: 740px;
+    clip-path: polygon(0 0, 0 100%, 100% 86%, 100% 0);
+  }
+  /* line 74, ../scss/layout/_banner.scss */
+  .banner-cont img {
+    height: 100%;
+  }
+  /* line 78, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont {
+    margin-top: 27%;
+    width: 75%;
+  }
+}
+@media (max-width: 502px) {
+  /* line 88, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont {
+    margin-top: 37%;
+    width: 90%;
+  }
+  /* line 92, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont h1 {
+    font-size: 20px!important;
+  }
+  /* line 96, ../scss/layout/_banner.scss */
+  .banner-cont .heading-cont p {
+    font-size: 16px;
+  }
+}
 /* line 3, ../scss/layout/_gallery.scss */
 .gallery-container .wrap-title {
   display: flex;
@@ -215,6 +251,45 @@ table {
   background: white;
 }
 
+@media (max-width: 732px) {
+  /* line 101, ../scss/layout/_gallery.scss */
+  .gallery-container .gallery {
+    width: 90%;
+    flex-direction: column;
+  }
+  /* line 105, ../scss/layout/_gallery.scss */
+  .gallery-container .gallery .img-wrap {
+    width: 370px;
+    margin: 10 auto;
+  }
+}
+@media (max-width: 502px) {
+  /* line 113, ../scss/layout/_gallery.scss */
+  .gallery-container .gallery .img-wrap {
+    width: 300px;
+  }
+
+  /* line 117, ../scss/layout/_gallery.scss */
+  .gallery-container .btn-wrap .btn {
+    width: 300px;
+  }
+}
+@media (max-width: 402px) {
+  /* line 123, ../scss/layout/_gallery.scss */
+  .gallery-container .gallery .img-wrap {
+    width: 270px;
+  }
+
+  /* line 127, ../scss/layout/_gallery.scss */
+  .gallery-container .btn-wrap .btn {
+    width: 270px;
+  }
+
+  /* line 131, ../scss/layout/_gallery.scss */
+  .gallery-container .wrap-title p {
+    font-size: 25px;
+  }
+}
 /* line 1, ../scss/layout/_why.scss */
 .why {
   background: #f7f7f7;
@@ -253,29 +328,43 @@ table {
 }
 /* line 37, ../scss/layout/_why.scss */
 .why .why-gallery {
-  width: 70%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-bottom: 80px;
   margin: auto;
   margin-top: 7px;
 }
-/* line 45, ../scss/layout/_why.scss */
+/* line 44, ../scss/layout/_why.scss */
 .why .why-gallery .svg-wrap {
-  width: 240px;
+  width: 220px;
 }
-/* line 49, ../scss/layout/_why.scss */
+/* line 48, ../scss/layout/_why.scss */
 .why .why-gallery .svg-wrap .title-wrap p {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
 }
-/* line 55, ../scss/layout/_why.scss */
+/* line 54, ../scss/layout/_why.scss */
 .why .why-gallery svg path {
   fill: #d87843;
   width: 100%;
 }
 
+@media (max-width: 834px) {
+  /* line 65, ../scss/layout/_why.scss */
+  .why .why-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 834px) {
+  /* line 72, ../scss/layout/_why.scss */
+  .why .why-p {
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+  }
+}
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
   height: 160px;

@@ -16,50 +16,86 @@
     img{
         width: 100%;
         opacity: 0.14;
-      }
+    }
     
-        .heading-cont{
-            width: 46%;
-            // change with media queries to fit screen nicely
-            // width: 400px;
-            margin: auto;
-            margin-top: 16.2%;
-            color: white;
-            position: absolute;
-            left: 0;
-            right: 0;
-            text-align: center;
+    .heading-cont{
+        width: 59%;
+        // change with media queries to fit screen nicely
+        // width: 400px;
+        margin: auto;
+        margin-top: 16.2%;
+        color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
 
-            h1{
-                // The style guide specifies size: 48px, 
-                // yet this does not match the proportions
-                // as shown in lp-desktop-styleguide.jpg 
-                font-size: 31px; 
-                font-family: $font-slab-bold;
-                white-space: nowrap;
+        h1{
+            // The style guide specifies size: 48px, 
+            // yet this does not match the proportions
+            // as shown in lp-desktop-styleguide.jpg 
+            font-size: 40px; 
+            font-family: $font-slab-bold;
+            white-space: nowrap;
 
+        }
+
+        .heading-line{
+            margin:  49px auto;
+            width: 80px;
+            height: 2px;
+            background: white;
+        }
+    
+        p{
+            font-size: 21px;
+            line-height: 30px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            margin: 0 auto;
+        }
+    }
+}
+
+    @media (max-width: 834px) {
+        .banner-cont{
+
+            .heading-cont h1 {
+                font-size: 28px!important;
+            }
+        } 
+    }
+
+    @media (max-width: 734px) {
+        .banner-cont{
+            height: 740px;
+            clip-path: polygon(0 0, 0 100%, 100% 86%, 100% 0);
+            
+            img{
+                height: 100%;
             }
 
-            .heading-line{
-                margin:  49px auto;
-                width: 80px;
-                height: 2px;
-                background: white;
+            .heading-cont{
+                margin-top: 27%;
+                width: 75%;
             }
-        
-            p{
-                font-size: 21px;
-                line-height: 30px;
-                font-family: 'Roboto';
-                font-weight: 400;
-                margin: 0 auto;
-                width: 360px;
+        }
+
+    }
+
+    @media (max-width: 502px) {
+        .banner-cont {
+            .heading-cont{
+                margin-top: 37%;
+                width: 90%;
+
+                h1 {
+                    font-size: 20px!important;
+                }
+
+                p{
+                    font-size: 16px;
+                }
             }
         }
     }
-
-    // @media (max-width: 834px) {
-    //     .banner-cont .heading-cont *{
-    //         font-size: 74%!important;
-    //     }
-    // }

@@ -95,9 +95,40 @@
             background: $color-secondary;
         }
     }
+}
 
+@media(max-width: 732px){
+    .gallery-container .gallery{
+        width: 90%;
+        flex-direction: column;
 
+        .img-wrap{
+            width: 370px;
+            margin: 10 auto;
+        }
+    }
+}
 
-    
+@media (max-width: 502px){
+    .gallery-container .gallery .img-wrap{
+        width: 300px;
+    }
 
+    .gallery-container .btn-wrap .btn{
+        width: 300px;
+    }
+}
+
+@media (max-width: 402px){
+    .gallery-container .gallery .img-wrap{
+        width: 270px;
+    }
+
+    .gallery-container .btn-wrap .btn{
+        width: 270px;
+    }
+
+    .gallery-container .wrap-title p{
+        font-size: 25px;
+    }
 }
