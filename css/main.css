@@ -73,7 +73,7 @@ table {
 
 /* line 2, ../scss/layout/_banner.scss */
 .banner-cont {
-  height: 855px;
+  height: 885px;
   position: relative;
   padding: 0;
   margin: 0 auto;
@@ -86,7 +86,7 @@ table {
 .banner-cont img {
   width: 100%;
   opacity: 0.14;
-  height: 855px;
+  height: 885px;
 }
 /* line 23, ../scss/layout/_banner.scss */
 .banner-cont .heading-cont {
