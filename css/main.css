@@ -190,40 +190,40 @@ table {
   color: #222222;
   font-size: 30px;
 }
-/* line 16, ../scss/layout/_gallery.scss */
+/* line 15, ../scss/layout/_gallery.scss */
 .gallery-container .line {
   margin: 80px auto;
   width: 80px;
   height: 2px;
   background: #efab4b;
 }
-/* line 23, ../scss/layout/_gallery.scss */
+/* line 22, ../scss/layout/_gallery.scss */
 .gallery-container .gallery {
   width: 80%;
   display: flex;
   justify-content: space-around;
   margin: 80px auto;
 }
-/* line 29, ../scss/layout/_gallery.scss */
+/* line 28, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap {
   width: 310px;
   margin: 0 10;
 }
-/* line 33, ../scss/layout/_gallery.scss */
+/* line 32, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap img {
   width: 100%;
   height: auto;
 }
-/* line 39, ../scss/layout/_gallery.scss */
+/* line 38, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk {
   background: #090909;
   position: relative;
 }
-/* line 43, ../scss/layout/_gallery.scss */
+/* line 42, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk img.with-musk {
   opacity: 0.23;
 }
-/* line 47, ../scss/layout/_gallery.scss */
+/* line 46, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk .img-banner {
   color: white;
   display: flex;
@@ -235,32 +235,32 @@ table {
   bottom: 0;
   left: 0;
 }
-/* line 58, ../scss/layout/_gallery.scss */
+/* line 57, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk .img-banner p.text-bold {
   font-family: "Roboto Slab";
   font-weight: 700;
   margin: 17 auto;
 }
-/* line 64, ../scss/layout/_gallery.scss */
+/* line 63, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk .img-banner p.text-normal {
   font-family: "Roboto";
   font-weight: 300;
   font-size: 16px;
   margin: 0 auto;
 }
-/* line 71, ../scss/layout/_gallery.scss */
+/* line 70, ../scss/layout/_gallery.scss */
 .gallery-container .gallery .img-wrap.with-musk .img-banner div.line {
   height: 2px;
   color: #efab4b;
   margin: 17 auto;
   width: 60px;
 }
-/* line 82, ../scss/layout/_gallery.scss */
+/* line 80, ../scss/layout/_gallery.scss */
 .gallery-container .btn-wrap {
   display: flex;
   margin-bottom: 80px;
 }
-/* line 86, ../scss/layout/_gallery.scss */
+/* line 84, ../scss/layout/_gallery.scss */
 .gallery-container .btn-wrap .btn {
   margin: 0 auto;
   width: 310px;
@@ -274,40 +274,37 @@ table {
 }
 
 @media (max-width: 732px) {
-  /* line 101, ../scss/layout/_gallery.scss */
+  /* line 99, ../scss/layout/_gallery.scss */
   .gallery-container .gallery {
     width: 90%;
     flex-direction: column;
   }
-  /* line 105, ../scss/layout/_gallery.scss */
+  /* line 103, ../scss/layout/_gallery.scss */
   .gallery-container .gallery .img-wrap {
     width: 370px;
     margin: 10 auto;
   }
 }
 @media (max-width: 502px) {
-  /* line 113, ../scss/layout/_gallery.scss */
+  /* line 112, ../scss/layout/_gallery.scss */
   .gallery-container .gallery .img-wrap {
     width: 300px;
   }
-
-  /* line 117, ../scss/layout/_gallery.scss */
+  /* line 116, ../scss/layout/_gallery.scss */
   .gallery-container .btn-wrap .btn {
     width: 300px;
   }
 }
 @media (max-width: 402px) {
-  /* line 123, ../scss/layout/_gallery.scss */
+  /* line 124, ../scss/layout/_gallery.scss */
   .gallery-container .gallery .img-wrap {
     width: 270px;
   }
-
-  /* line 127, ../scss/layout/_gallery.scss */
+  /* line 128, ../scss/layout/_gallery.scss */
   .gallery-container .btn-wrap .btn {
     width: 270px;
   }
-
-  /* line 131, ../scss/layout/_gallery.scss */
+  /* line 132, ../scss/layout/_gallery.scss */
   .gallery-container .wrap-title p {
     font-size: 25px;
   }
